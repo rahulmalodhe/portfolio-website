@@ -33,8 +33,8 @@ export default function Intro() {
             <Image
               src={"/ui-ux.jpg"}
               alt="Ui"
-              width="300"
-              height="300"
+              width="250"
+              height="250"
               priority={true}
               className="h-[400px] w-[400px] rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
@@ -65,7 +65,7 @@ export default function Intro() {
         <span className="font-bold"> UI/UX</span> designer with over{" "}
         <span className="font-bold">2 years</span> of experience in 
         crafting intuitive and engaging digital experiences using
-        tools like <span className="underline">Figma, Adobe XD</span>.
+        tools like <span className="underline">Figma, </span>.
       </motion.h1>
 
       <motion.div
