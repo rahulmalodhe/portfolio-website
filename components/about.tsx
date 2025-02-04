@@ -23,7 +23,7 @@ export default function About() {
       perspective and a detail-oriented approach to design. I’ve worked in
       fast-paced corporate environments to deliver intuitive and impactful
       solutions that align with user needs and business goals.
-      <p className="mb-3">
+      {/* <p className="mb-3">
         I am a UI/UX designer with over{" "}
         <span className="font-medium">2 years</span>, I of experience creating
         engaging user experiences, backed by 1.5 years of QA testing. My
@@ -38,14 +38,11 @@ export default function About() {
         experience
         <span className="font-medium">full-time position</span> as a UI/UX
         designer.
-      </p>
+      </p> */}
       <p>
         <span className="italic">When I'm not Designing</span>, I enjoy
         listening to music, watching movies, and playing with my dog. I also
-        enjoy <span className="font-medium">learning new things</span>. I am
-        currently learning about <span className="font-medium">Morphism</span>.
-        which has emerged as one of the cooler trends redefining the digital
-        landscape.
+        enjoy <span className="font-medium">learning new things</span>.
       </p>
     </motion.section>
   );
